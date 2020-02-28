@@ -20,7 +20,7 @@ var scene = new THREE.Scene();
       camera.position.z = 2;
       function animate() {
         requestAnimationFrame(animate);
-        cube.rotation.x += 0.01;
+        cube.rotation.x += 0.02;
         cube.rotation.y += 0.01;
         cube2.rotation.x += 0.01
         renderer.render(scene, camera);
